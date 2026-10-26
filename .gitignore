@@ -1,0 +1,39 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+target/
+
+# ── Runtime data directories ──────────────────────────────────────────────────
+data/
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ── OS noise ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Log files ─────────────────────────────────────────────────────────────────
+*.log
+
+# ── Benchmark temporary results (committed final results are NOT ignored) ──────
+bench/results/tmp/

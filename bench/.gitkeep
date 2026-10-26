@@ -1,0 +1,4 @@
+# bench/ — Benchmark drivers and results
+# Load generator lives in src/main/java/com/kvstore/tools/
+# Raw CSV results go into bench/results/ (committed, NOT ignored)
+# Temporary/in-progress files go into bench/results/tmp/ (git-ignored)

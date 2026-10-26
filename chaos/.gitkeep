@@ -1,0 +1,4 @@
+# chaos/ — Chaos test scripts (added in M6)
+# Scenario: write continuously, kill one node (N=3, W=2, R=2),
+# keep writing/reading, verify every ack'd write is still readable;
+# restart node and verify catch-up.
